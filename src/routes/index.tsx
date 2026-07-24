@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from "motion/react";
 import { useRef } from "react";
 import { Play, ArrowUpRight, Film, Car, Sparkles, Cog, Wand2, Share2, Layers } from "lucide-react";
 
-import heroImg from "@/assets/hero.jpg";
+import heroImg from "@/assets/hero-moto.jpg.asset.json";
 import { Nav } from "@/components/site/Nav";
 import { Footer } from "@/components/site/Footer";
 import { Reveal } from "@/components/site/Reveal";
@@ -86,7 +86,7 @@ function HomePage() {
           className="absolute inset-0"
         >
           <img
-            src={heroImg}
+            src={heroImg.url}
             alt="Cinematic dark automotive CGI still"
             className="h-full w-full object-cover"
             width={1920}
@@ -186,7 +186,7 @@ function HomePage() {
           <Reveal delay={0.1}>
             <div className="group relative aspect-[16/9] w-full overflow-hidden rounded-3xl border border-border bg-card">
               <img
-                src={heroImg}
+                src={heroImg.url}
                 alt="Showreel preview"
                 loading="lazy"
                 className="absolute inset-0 h-full w-full object-cover transition-transform duration-[1500ms] group-hover:scale-105"
