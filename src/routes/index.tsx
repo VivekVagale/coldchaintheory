@@ -197,7 +197,7 @@ function HomePage() {
                 aria-label="Play showreel"
                 className="absolute inset-0 flex items-center justify-center"
               >
-                <span className="relative inline-flex h-24 w-24 md:h-32 md:w-32 items-center justify-center rounded-full bg-background/40 backdrop-blur-md border border-border transition-all group-hover:scale-105 group-hover:bg-accent group-hover:border-accent">
+                <span className="btn-glass relative inline-flex h-24 w-24 md:h-32 md:w-32 items-center justify-center rounded-full bg-background/40 border border-white/20 transition-all group-hover:scale-105 group-hover:bg-accent/50 group-hover:border-accent">
                   <Play className="h-8 w-8 md:h-10 md:w-10 text-foreground translate-x-0.5 transition-colors group-hover:text-accent-foreground" fill="currentColor" />
                 </span>
               </button>

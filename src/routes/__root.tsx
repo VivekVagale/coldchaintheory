@@ -55,13 +55,13 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
         <div className="mt-8 flex flex-wrap justify-center gap-3">
           <button
             onClick={() => { router.invalidate(); reset(); }}
-            className="inline-flex items-center rounded-full bg-accent px-5 py-2.5 text-sm font-medium text-accent-foreground"
+            className="btn-glass inline-flex items-center rounded-full border border-accent/40 bg-accent/25 px-5 py-2.5 text-sm font-medium text-foreground hover:bg-accent/35"
           >
             Try again
           </button>
           <a
             href="/"
-            className="inline-flex items-center rounded-full border border-border px-5 py-2.5 text-sm font-medium text-foreground hover:bg-secondary"
+            className="btn-glass inline-flex items-center rounded-full border border-white/15 bg-white/5 px-5 py-2.5 text-sm font-medium text-foreground hover:bg-white/10"
           >
             Go home
           </a>

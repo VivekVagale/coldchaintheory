@@ -58,7 +58,7 @@ export function Nav() {
           ))}
           <Link
             to="/contact"
-            className="group relative inline-flex items-center gap-2 rounded-full bg-accent px-5 py-2.5 text-sm font-medium text-accent-foreground transition-transform hover:scale-[1.03] accent-glow"
+            className="btn-glass group relative inline-flex items-center gap-2 rounded-full border border-accent/40 bg-accent/25 px-5 py-2.5 text-sm font-medium text-foreground transition-transform hover:scale-[1.03] hover:bg-accent/35 accent-glow"
           >
             Book a Project
             <span aria-hidden className="transition-transform group-hover:translate-x-0.5">→</span>
@@ -66,7 +66,7 @@ export function Nav() {
         </nav>
 
         <button
-          className="lg:hidden inline-flex h-10 w-10 items-center justify-center rounded-full border border-border text-foreground"
+          className="btn-glass lg:hidden inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/20 bg-white/10 text-foreground hover:bg-white/15"
           onClick={() => setOpen((v) => !v)}
           aria-label="Menu"
         >

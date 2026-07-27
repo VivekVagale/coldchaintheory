@@ -103,7 +103,7 @@ function ContactPage() {
                 </label>
 
                 <div className="md:col-span-2 pt-4">
-                  <button type="submit" className="group inline-flex items-center gap-2 rounded-full bg-accent px-8 py-4 text-sm font-medium text-accent-foreground transition-transform hover:scale-[1.03] accent-glow">
+                  <button type="submit" className="btn-glass group inline-flex items-center gap-2 rounded-full border border-accent/40 bg-accent/25 px-8 py-4 text-sm font-medium text-foreground transition-transform hover:scale-[1.03] hover:bg-accent/35 accent-glow">
                     Book a Project
                     <ArrowUpRight size={16} className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                   </button>
